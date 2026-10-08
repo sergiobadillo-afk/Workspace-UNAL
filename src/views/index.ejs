@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= etiqueta %></title>
+
+    <%- include ('Partial/head.ejs') %>
+
+
+</head>
+<body>
+    <%- include ('Partial/navigation.ejs') %>
+
+
+    <header class="container bg-dark vh-100 d-flex justify-content-center align-items-center">
+        <div class="d-flex flex-column justify-content-center align-items-center">  
+            <img src="/img/logo.png" alt="Logo" width="100" height="100">
+            <h1 class=" display-1 my-5 text -uppercase fw-bold">SIBA</h1>
+            <a href="/" class="btn btn-primary w-25"> inicio </a>
+        </div>
+
+
+    </header>
+
+
+    <h1> Buenos dias instructor, son las hora <%= hora %></h1></marquee>
+
+    <%- include ('Partial/footer.ejs') %>
+
+</body>
+
+
+
+
+
+</html>

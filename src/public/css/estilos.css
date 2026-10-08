@@ -1,0 +1,47 @@
+
+body {
+    background-color: #9e3c3c;
+    color: #05b68a;
+}
+
+body.login {
+    font-family: Arial, sans-serif;
+    juatify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.login card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    text-align: center;
+    margin: auto;
+}
+
+.input-group{
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.button {
+    display:flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 10px;
+}
